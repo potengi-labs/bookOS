@@ -1,4 +1,4 @@
-<script>
+
 document.querySelectorAll('.audio-toggle').forEach(btn => {
   btn.addEventListener('click', () => {
     const audio = document.getElementById(btn.dataset.audio);
@@ -21,4 +21,3 @@ document.querySelectorAll('.audio-toggle').forEach(btn => {
     };
   });
 });
-</script>
