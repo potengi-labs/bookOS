@@ -147,13 +147,14 @@
        class="doc-button">
       Abrir Documento
     </a>
+
+    <!-- PLAYER -->
     
-  <button class="doc-button audio-btn" onclick="this.querySelector('audio').play()">
-    🎧 Comentários do Capítulo
-    <audio preload="none">
-      <source src="assets/audios/bookos-custos_cap1a.mp3" type="audio/mpeg">
-    </audio>
-  </button>
+  <button class="doc-button audio-toggle" data-audio="cap1">▶ Comentários do Capítulo🎧</button>
+  <audio id="cap1" preload="none">    <source src="assets/audios/bookos-custos_cap1a.mp3" type="audio/mpeg">  </audio>
+
+    <!-- PLAYER -->
+    
   </div>
 
   <div class="doc-viewer">
@@ -392,6 +393,7 @@ Acessar norma no portal do CFC
 
 <script src="assets/js/bookos-main.js"></script>
 <script src="assets/js/components.js"></script>
+<script src="assets/js/player.js"></script>
 
 </body>
 </html>
