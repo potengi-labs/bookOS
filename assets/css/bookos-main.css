@@ -372,7 +372,7 @@ display:none;
 .content-section.active{
 display:block;
 }
-
+/*
 .doc-page{
 display:none;
 }
@@ -380,6 +380,8 @@ display:none;
 .doc-page.active{
 display:block;
 }
+*/
+
 
 /* DOC HEADER */
 
